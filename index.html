@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mohamad Hachem</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/f1a6de436b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<img src="images/Mohamad_LOGO.png" class="logo">
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				<p>Software Engineer</p>
+				<h1>Hello! I'm <span>Mohamad</span>.</h1>
+				<h2 class="change-color">
+					<div class="sentence">
+					  <span>Engineering</span>
+					  <span>Tomorrow's</span>
+					  <span>Solutions</span>
+					  <span>Today</span>
+					</div>
+				</h2>
+				<a href="images/Mohamad_HACHEM_EN_CV_2023.pdf" download class="btn btn-2">Download CV</a>
+			</div>
+		</div>
+	</div>
+	<!-- ------------about----------------- -->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="images/Mohamad_wallpaper.png">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>From participating in coding competitions during my early years to recently completing my Master's degree as one of the top students, I've always been driven by a deep-seated passion for technology and programming.</p><br>
+					<p> As a dedicated software engineer, I've had the privilege to not only transform my academic learnings into real-world applications through internships but also lead the creation of entire school's website.</p><br>
+					
+					<p>While I revel in my achievements, I also recognize the dynamic nature of the tech industry. Hence, I'm committed to continuous learning and eagerly seek challenges that fuel my growth. Beyond my professional endeavors, I relish opportunities to connect with like-minded tech enthusiasts, be it for potential collaborations, career discussions, or simply sharing our excitement for the latest tech innovations.</p>
+					<div class="tab_titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+						<p class="tab-links" onclick="opentab('languages')">Languages</p>
+					</div>
+					<div id="skills" class="tab-contents active-tab">
+						<ul>
+							<li><span>Programming Languages</span><br>Python, Java, HTML, CSS </li>
+							<li><span>Frameworks</span><br>Django, Flask, FastAPI, Spring Boot, Bootstrap</li>
+							<li><span>Database</span><br>SQL, NoSQL</li>
+						</ul>
+					</div>					
+					<div id="experience" class="tab-contents">
+						<ul>
+							<li><span>2023</span><br>Software Engineer Intern at Qonto </li>
+							<li><span>2022</span><br>Software Engineer Intern at Onepoint </li>
+							<li><span>2021</span><br>WorldPress Developer(Freelancer)</li>
+							<li><span>2019</span><br>Web Developer Intern at Weavo</li>
+						</ul>
+					</div>
+					<div id="education" class="tab-contents">
+						<ul>
+							<li><span>2021-2023</span><br>Master’s in data science & AI at Ecole Supérieure d’Ingénieurs Léonard de Vinci (ESILV)</li>
+							<li><span>2016-2020</span><br>Bachelor in Computer Science at Haigazian University</li>
+							<li><span>2018</span><br>Certified in Leadership and Social work at Georgetown University</li>
+						</ul>
+					</div>
+					<div id="languages" class="tab-contents">
+						<ul>
+							<li><span>Bilingual</span><br>English, Arabic</li>
+							<li><span>Very Good</span><br>French</li>
+							<li><span>Beginner</span><br>Mandarin(A1 certification),Spanish(A1 certification)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- -------------------Services---------------- -->
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa-solid fa-laptop-code"></i>
+					<h2>Web Developement</h2>
+					<p>Dive into the digital world with a fresh and functional website tailored to your needs. Whether you're looking to establish an online presence, share your passion, or promote your business, I'm here to turn your vision into reality.</p><br>
+					 <p>Leveraging modern design principles and the latest web technologies, I ensure that every site is responsive, user-friendly, and aligns with your objectives.</p>
+					<a href="https://www.linkedin.com/in/hachemmohamad/">Learn more</a>
+				</div>
+				<div>
+					<i class="fa-solid fa-server"></i>
+					<h2>Back-end Engineering</h2>
+					<p>Behind every great website or application is a robust and efficient back-end. I specialize in creating secure, scalable, and high-performance server-side solutions that ensure your digital platform runs smoothly.</p><br>
+					<p> From database design to API integration, I'll handle the behind-the-scenes magic, providing a strong foundation for your online endeavors.</p>
+					<a href="https://www.linkedin.com/in/hachemmohamad/">learn more</a>
+				</div>
+				<div>
+					<i class="fa-solid fa-robot"></i>
+					<h2>Data and AI</h2>
+					<p>Unlock the power of data with AI-driven insights and solutions. Even at the beginning of my journey, I'm deeply passionate about harnessing the potential of data to drive informed decisions and offer smart solutions.</p><br>
+					<p> Whether it's data analysis, machine learning, or AI-powered functionalities you're after, let's collaborate to bring cutting-edge intelligence to your projects.</p>
+					<a href="https://www.linkedin.com/in/hachemmohamad/">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- --------------------portfolio----------------------- -->
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="images/work-1.png">
+					<div class="layer">
+						<h3>Fast PDF Generator</h3>
+						<p>The goal of this project is to be able to generate any pdf file on the go. online with a simple click and be able to utilize it whenever, however without having to write on any doc.</p>
+						 <a href="https://plankton-app-abu4g.ondigitalocean.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="images/work-2.png">
+					<div class="layer">
+						<h3>Django Food App</h3>
+						<p>FoodApp: Your One-stop Food Marketplace Welcome to FoodApp, a comprehensive platform tailored to connect food enthusiasts with their desired treats. </p>
+						 <a href="https://whale-app-wk4nz.ondigitalocean.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="images/work-3.png">
+					<div class="layer">
+						<h3>My Personal website</h3>
+						<p>This is my latest Work it allows recruiters and to check my latest work </p>
+						 <a href="#header"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="https://www.linkedin.com/in/hachemmohamad/" class="btn">See more</a> 
+		</div>
+	</div>
+	<!-- --------------------------contact------------------------ -->
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p><i class="fa-regular fa-paper-plane"></i>Mohamad27hachem@outlook.com</p>
+					<div class="social-icons">
+						<a href="https://www.linkedin.com/in/hachemmohamad/"><i class="fa-brands fa-linkedin"></i></a>
+						<a href="https://www.linkedin.com/in/hachemmohamad/"><i class="fa-solid fa-user"></i></i></a>
+					</div>
+					<a href="images/Mohamad_HACHEM_EN_CV_2023.pdf" download class="btn btn-2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Enter your name" required>
+						<input type="email" name="Email" placeholder="Enter your email" required>
+						<textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+						<button type="submit" class="btn btn-2">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright © Mohamad Hachem <i class="fa-solid fa-heart"></i></p>
+		</div>
+	</div>
+	<!-- --------------------------Script------------------------ -->
+	<script type="text/javascript">
+		var tablinks = document.getElementsByClassName("tab-links")
+		var tabcontents = document.getElementsByClassName("tab-contents")
+
+		function opentab(tabname){
+			for(tablink of tablinks)
+			{
+				tablink.classList.remove("active-link");
+			}
+			for(tabcontent of tabcontents)
+			{
+				tabcontent.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+	</script>
+	<script type="text/javascript">
+		var sidemenu = document.getElementById("sidemenu");
+
+		function openmenu(){
+			sidemenu.style.right = "0";
+		}
+		function closemenu(){
+			sidemenu.style.right = "-200px";
+		}
+	</script>
+	<script>
+		  const scriptURL = 'https://script.google.com/macros/s/AKfycbz_NoTeZhyW7k2OrVXXB_wAh9hXsgfCxYLPiiC2CjbkTK199eAojja5lrliAf43SG9Etg/exec'
+		  const form = document.forms['submit-to-google-sheet']
+		  const msg = document.getElementById("msg")
+
+		  form.addEventListener('submit', e => {
+		    e.preventDefault()
+		    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		      .then(response => {
+		      	form.reset()
+		      	msg.innerHTML = "Message sent successfully!"
+		      	setTimeout(function(){msg.innerHTML = "Message sent successfully!" }, 5000)
+		   		msg.innerHTML = ""
+		      })
+		      .catch(error => console.error('Error!', error.message))
+		  })
+		  
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
